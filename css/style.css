@@ -10,7 +10,7 @@
 :root {
     --cor0: #fff;
     --cor1: #6692C8;
-    --cor2: #bdbcbc;
+    --cor2: #afaeae;
     --cor3: #000;
 }
 
@@ -38,12 +38,13 @@ body {
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-    padding: 3.3rem 0 11rem 0;
+    padding: 3.8rem 0 11rem 0;
 }
 
 .cabecalho .logo-menu {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     margin-bottom: 5.5rem;
 }
 
@@ -100,18 +101,61 @@ body {
 .conteudo {}
 
 /* SEÇÃO DE ARTIGO  */
-.secao-artigo {}
+.secao-artigo {
+    background-color: var(--cor0);
+    padding: 5.3rem 0;
+}
 
-.secao-artigo .artigo {}
+.secao-artigo .posicionamento-artigos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 
-.secao-artigo .artigo h2 {}
+.secao-artigo .posicionamento-artigos .artigo {}
 
-.secao-artigo .artigo p {}
+.secao-artigo .posicionamento-artigos #artigo-borda {
+    border-left: 1px solid var(--cor2);
+    border-right: 1px solid var(--cor2);  
+    padding: 0 4rem;
+    margin: 0 4rem 0 3rem;
+}
 
-.conteudo .secao-artigo .artigo a {}
+.secao-artigo .posicionamento-artigos .artigo h2 {
+    font-size: 1.2em;
+    font-weight: 100;
+    color: var(--cor1);
+    margin-bottom: 1rem;
+    line-height: 1.4em;
+}
+
+.secao-artigo .posicionamento-artigos .artigo p {
+    color: var(--cor2);
+    font-size: 0.9em;
+    margin-bottom: 2rem;
+    line-height: 1.6em;
+}
+
+.secao-artigo .posicionamento-artigos .artigo a {
+    display: block;
+    background-color: var(--cor1);
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.secao-artigo .posicionamento-artigos .artigo a:hover {
+    background-color: #52739b;
+    transition: .5s;
+}
 
 /* SEÇÃO IPSUM  */
-.secao-ipsum {}
+.secao-ipsum {
+    background-color: var(--cor1);
+}
 
 .secao-ipsum h2 {}
 
