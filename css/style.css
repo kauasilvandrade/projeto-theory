@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+/* FONTES */
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fontes/raleway.ttf') format('truetype');
+}
+
+/* PALETA DE CORES */
+:root {
+    --cor0: #fff;
+    --cor1: #6692C8;
+    --cor2: #bdbcbc;
+    --cor3: #000;
+}
+
+/* CONFIGURAÇÕES GLOBAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO */
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1098px;
+    margin: auto;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+    background-image: url(../imagens/banner.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 3.3rem 0 11rem 0;
+}
+
+.cabecalho .logo-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5.5rem;
+}
+
+.cabecalho .logo-menu .logo {
+    color: var(--cor0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* BOTÃO MOBILE */
+.cabecalho .logo-menu .btn-hamburguer {
+    display: none;
+}
+
+.cabecalho .logo-menu .btn-hamburguer #btn-check {}
+
+.cabecalho .logo-menu .btn-hamburguer #btn-check .btn-mark {}
+
+.cabecalho .logo-menu .btn-hamburguer #btn-check .btn-mark-off {}
+
+/* MENU */
+.cabecalho .logo-menu .lista-menu {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.cabecalho .logo-menu .lista-menu .item-menu {}
+
+.cabecalho .logo-menu .lista-menu .item-menu a {
+    text-decoration: none;
+    color: var(--cor0);
+    font-size: 0.9em;
+}
+
+.cabecalho .logo-menu .lista-menu .item-menu a:hover {
+    transition: .5s;
+    color: var(--cor1);
+}
+
+.cabecalho h1 {
+    color: var(--cor0);
+    font-weight: 100;
+    font-size: 3.2em;
+    margin-bottom: 1.6rem;
+}
+
+.cabecalho p {
+    color: var(--cor2);
+    font-size: 0.9em;
+}
+
+/* CONTEÚDO */
+.conteudo {}
+
+/* SEÇÃO DE ARTIGO  */
+.secao-artigo {}
+
+.secao-artigo .artigo {}
+
+.secao-artigo .artigo h2 {}
+
+.secao-artigo .artigo p {}
+
+.conteudo .secao-artigo .artigo a {}
+
+/* SEÇÃO IPSUM  */
+.secao-ipsum {}
+
+.secao-ipsum h2 {}
+
+.secao-ipsum p {}
+
+.secao-ipsum .lista-pessoa {}
+
+.secao-ipsum .lista-pessoa .item-pessoa {}
+
+.secao-ipsum .lista-pessoa .item-pessoa img {}
+
+.secao-ipsum .lista-pessoa .item-pessoa h3 {}
+
+.secao-ipsum .lista-pessoa .item-pessoa span {}
+
+/* SEÇAO NUNC DIGNISSIM */
+.secao-nunc {}
+
+.secao-nunc h2 {}
+
+.secao-nunc p {}
+
+.secao-nunc .artigos {}
+
+.secao-nunc .artigos .artigo {}
+
+.secao-nunc .artigos .artigo img {}
+
+.secao-nunc .artigos .artigo h3 {}
+
+.secao-nunc .artigos .artigo p {}
+
+.secao-nunc .artigos .artigo a {}
+
+/* RODAPÉ */
+.rodape {}
+
+.rodape p {}
+
+.rodape p a {}
+
+.rodape .imagens-rede-socias {}
+
+.rodape .imagens-rede-socias a {}
