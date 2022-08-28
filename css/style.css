@@ -9,7 +9,7 @@
 /* PALETA DE CORES */
 :root {
     --cor0: #fff;
-    --cor1: #6692C8;
+    --cor1: #5385C1;
     --cor2: #afaeae;
     --cor3: #000;
 }
@@ -125,7 +125,7 @@ body {
     font-size: 1.2em;
     font-weight: 100;
     color: var(--cor1);
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
     line-height: 1.4em;
 }
 
@@ -155,48 +155,152 @@ body {
 /* SEÇÃO IPSUM  */
 .secao-ipsum {
     background-color: var(--cor1);
+    text-align: center;
+    padding: 5.8rem 0 7.5rem 0;
 }
 
-.secao-ipsum h2 {}
+.secao-ipsum h2 {
+    color: white;
+    font-weight: 100;
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+}
 
-.secao-ipsum p {}
+.secao-ipsum p {
+    color: #bacee6;
+    margin-bottom: 4rem;
+    font-size: 0.9em;
+}
 
-.secao-ipsum .lista-pessoa {}
+.secao-ipsum .lista-pessoa {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
 
-.secao-ipsum .lista-pessoa .item-pessoa {}
+.secao-ipsum .lista-pessoa .item-pessoa {
+    border: 1px solid #bacee6;
+    padding: 2.8rem 1.8rem;
+}
+.secao-ipsum .lista-pessoa .item-pessoa:hover {
+    transform: translate(-5px, -5px);
+    transition: transform .5s;
+    box-shadow: 7px 8px 5px rgba(0, 0, 0, 0.096);
+}
 
-.secao-ipsum .lista-pessoa .item-pessoa img {}
+.secao-ipsum .lista-pessoa .item-pessoa img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
 
-.secao-ipsum .lista-pessoa .item-pessoa h3 {}
+.secao-ipsum .lista-pessoa .item-pessoa h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3em;
+    color: white;
+    font-weight: 100;
+}
 
-.secao-ipsum .lista-pessoa .item-pessoa span {}
+.secao-ipsum .lista-pessoa .item-pessoa span {
+    color: #bacee6;
+    margin-bottom: 3rem;
+    font-size: 0.9em;
+}
 
 /* SEÇAO NUNC DIGNISSIM */
-.secao-nunc {}
+.secao-nunc {
+    padding: 5.8rem 0 2rem 0;
+}
 
-.secao-nunc h2 {}
+.secao-nunc .h2 {
+    text-align: center;
+    color: #bacee6;
+    font-weight: 100;
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+}
 
-.secao-nunc p {}
+.secao-nunc .p {
+    text-align: center;
+    color: var(--cor2);
+    margin-bottom: 4rem;
+    font-size: 0.9em;
+}
 
-.secao-nunc .artigos {}
+.secao-nunc .artigos {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
 
 .secao-nunc .artigos .artigo {}
 
-.secao-nunc .artigos .artigo img {}
+.secao-nunc .artigos .artigo img {
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
 
-.secao-nunc .artigos .artigo h3 {}
+.secao-nunc .artigos .artigo h3 {
+    color: #6e97c9;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+    font-size: 1.2em;
+}
 
-.secao-nunc .artigos .artigo p {}
+.secao-nunc .artigos .artigo p {
+    color: var(--cor2);
+    line-height: 1.6em;
+    font-size: 0.9em;
+    margin-bottom: 2rem;
+}
 
-.secao-nunc .artigos .artigo a {}
+.secao-nunc .artigos .artigo a {
+    display: block;
+    background-color: var(--cor1);
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.secao-nunc .artigos .artigo a:hover {
+    background-color: #52739b;
+    transition: .5s;
+}
 
 /* RODAPÉ */
-.rodape {}
+.rodape {
+    border-top: 1px solid var(--cor2);
+    padding-top: 2.7rem;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: space-between;
+    color: var(--cor2);
+    align-items: center;
+}
 
 .rodape p {}
 
-.rodape p a {}
+.rodape p a {
+    text-decoration: none;
+    color: var(--cor2);
+}
 
-.rodape .imagens-rede-socias {}
+.rodape p a:hover {
+    text-decoration: underline;
+    color: #52739b;
+}
 
-.rodape .imagens-rede-socias a {}
+.rodape .imagens-rede-socias {
+    flex-direction: row;
+    display: flex;
+    gap: 1rem;
+}
+
+.rodape .imagens-rede-socias a {
+    color: var(--cor1);
+    text-decoration: none;
+    font-size: 1.5em;
+}
