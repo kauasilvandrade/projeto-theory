@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
     margin-bottom: 5.5rem;
 }
 
@@ -56,14 +57,20 @@ body {
 
 /* BOTÃO MOBILE */
 .cabecalho .logo-menu .btn-hamburguer {
+    /* display: none; */
+}
+
+.cabecalho .logo-menu .btn-hamburguer #btn-check {
     display: none;
 }
 
-.cabecalho .logo-menu .btn-hamburguer #btn-check {}
+.cabecalho .logo-menu .btn-hamburguer .btn-check .btn-mark {
+    display: none;
+}
 
-.cabecalho .logo-menu .btn-hamburguer #btn-check .btn-mark {}
-
-.cabecalho .logo-menu .btn-hamburguer #btn-check .btn-mark-off {}
+.cabecalho .logo-menu .btn-hamburguer .btn-check .btn-mark-off {
+    /* display: none; */
+}
 
 /* MENU */
 .cabecalho .logo-menu .lista-menu {
@@ -303,4 +310,157 @@ body {
     color: var(--cor1);
     text-decoration: none;
     font-size: 1.5em;
+}
+
+/* RESPONSVIDADE */
+@media screen and (max-width: 1119px) {
+
+    .container {
+        max-width: 965px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1007px) {
+
+    /* CABEÇALHO */
+    .cabecalho {
+        background-attachment: none;
+        padding: 3rem 0 8rem 0;
+    }
+
+    .cabecalho .logo-menu {
+        padding: 0 3rem;
+    }
+
+    /* SEÇÃO ARTIGO */
+    .secao-artigo {
+        background-color: var(--cor0);
+        padding: 4.5rem 2rem;
+    }
+
+    .secao-artigo .posicionamento-artigos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .secao-artigo .posicionamento-artigos #artigo-borda {
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid var(--cor2);
+        border-top: 1px solid var(--cor2);
+        padding: 2rem 0;
+        margin: 0;
+    }
+
+    /* SEÇÃO IPSUM */
+    .secao-ipsum {
+        padding: 5rem 0 5rem 0;
+    }
+
+    .secao-ipsum .lista-pessoa {
+        width: 571px;
+        list-style: none;
+        display: flex;
+        margin: auto;
+        gap: 2rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .secao-nunc .artigos {
+        display: flex;
+        gap: 4rem;
+        padding: 0 2rem;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 592px) {
+
+    /* BOTÃO MOBILE */
+    .cabecalho .logo-menu .btn-hamburguer .btn-check .btn-mark {
+        display: block;
+        color: #bacee6;
+        font-size: 2em;
+    }
+
+    .cabecalho .logo-menu .btn-hamburguer #btn-check:checked ~ .lista-menu {
+        right: 0;
+    }
+
+    /* MENU */
+    .cabecalho .logo-menu .lista-menu {
+        background-color: var(--cor1);
+        position: fixed;
+        list-style: none;
+        padding: 1.5rem;
+        right: -100%;
+        width: 22rem;
+        top: 0;
+        height: 100vh;
+        flex-direction: column;
+        transition: all .5s;
+    }
+
+    .cabecalho .logo-menu .lista-menu .item-menu {
+        text-align: left;
+    }
+
+    .cabecalho .logo-menu .lista-menu .item-menu a {
+        color: #9ab5d6;
+        display: block;
+        font-size: 1.2em;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+
+    .cabecalho .logo-menu .lista-menu .item-menu a:hover {
+        color: white;
+    }
+    
+    .cabecalho .logo-menu .lista-menu .item-menu #a-borda {
+        border-bottom: 1px solid #9ab5d6;
+        border-top: 1px solid #9ab5d6;
+        padding: 0.8rem 0;
+    }
+
+
+    /* SEÇAO IPSUM */
+    .secao-ipsum .lista-pessoa {
+        width: 300px;
+        list-style: none;
+        display: flex;
+        margin: auto;
+        gap: 2rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .secao-ipsum .lista-pessoa .item-pessoa {
+        width: 100%;
+    }
+
+    /* SEÇAO NUNC */
+    .secao-nunc .artigos .artigo a {
+        display: block;
+        background-color: var(--cor1);
+        text-decoration: none;
+        color: var(--cor0);
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        padding: 0.8rem;
+    }
+
+    /* RODAPÉ */
+    .rodape {
+        padding-top: 2rem;
+        gap: 2rem;
+        flex-direction: column;
+    }
 }
