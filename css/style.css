@@ -388,6 +388,11 @@ body {
 
 @media screen and (max-width: 592px) {
 
+    /* CABEÇALHO */
+    .cabecalho h1, .cabecalho p {
+        padding: 0 1rem;
+    }
+
     /* BOTÃO MOBILE */
     .cabecalho .logo-menu #btn-check[type="checkbox"]:checked ~ .lista-menu {
         right: 0;
