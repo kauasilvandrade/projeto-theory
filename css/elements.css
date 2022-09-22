@@ -1,0 +1,235 @@
+
+
+/* CONTÉUDO */
+.conteudo {}
+
+.conteudo h1 {}
+
+.conteudo h2 {}
+
+.conteudo p {}
+
+/* SEÇÃO DE BLOCO DE TEXTO */
+.secao-blocos-textos {}
+
+.secao-blocos-textos .bloco-texto {}
+
+.secao-blocos-textos .bloco-texto h2 {}
+
+.secao-blocos-textos .bloco-texto h3 {}
+
+.secao-blocos-textos .bloco-texto p {}
+
+/* SEÇÃO ELEMENTOS */
+.secao-elementos {}
+
+/* COLUNA 1 */
+.secao-elementos .coluna-1 {}
+
+/* ÁREA TEXTO  */
+.secao-elementos .coluna-1 .caixa-texto {}
+
+.secao-elementos .coluna-1 .caixa-texto h3 {}
+
+.secao-elementos .coluna-1 .caixa-texto p {}
+
+.secao-elementos .coluna-1 .caixa-texto p strong {}
+
+.secao-elementos .coluna-1 .caixa-texto p em {}
+
+.secao-elementos .coluna-1 .caixa-texto p sup {}
+
+.secao-elementos .coluna-1 .caixa-texto p sub {}
+
+.secao-elementos .coluna-1 .caixa-texto p ins {}
+
+.secao-elementos .coluna-1 .caixa-texto p span {}
+
+/* ÁREA HEADING */
+.secao-elementos .coluna-1 .caixa-heading {}
+
+.secao-elementos .coluna-1 .caixa-heading h2 {}
+
+.secao-elementos .coluna-1 .caixa-heading h3 {}
+
+.secao-elementos .coluna-1 .caixa-heading h4 {}
+
+.secao-elementos .coluna-1 .caixa-heading h5 {}
+
+.secao-elementos .coluna-1 .caixa-heading h6 {}
+
+/* DESCRIÇÃO HEADING */
+.secao-elementos .coluna-1 .descricao-heading {}
+
+.secao-elementos .coluna-1 .descricao-heading h3 {}
+
+.secao-elementos .coluna-1 .descricao-heading p.p-bottom {}
+
+.secao-elementos .coluna-1 .descricao-heading p {}
+
+.secao-elementos .coluna-1 .descricao-heading h3 {}
+
+.secao-elementos .coluna-1 .descricao-heading h4 {}
+
+/* ÁREA COM LISTAS */
+.secao-elementos .coluna-1 .caixa-lista {}
+
+.secao-elementos .coluna-1 .caixa-lista h3 {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas {}
+
+/* LISTA NÃO ORDENADA */
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-n-ordenada {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-n-ordenada h4 {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-n-ordenada .lista-n-ordenada {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-n-ordenada .lista-n-ordenada .item {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-n-ordenada .caixa-alternate {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-n-ordenada .caixa-alternate h4 {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-n-ordenada .caixa-alternate p {}
+
+/* LISTA ORDENADA */
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-ordenada {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-ordenada h3 {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-ordenada .lista-ordenada {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-ordenada .lista-ordenada .item {}
+
+/* CAIXA ICONS */
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-ordenada .caixa-icons {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-ordenada .caixa-icons h3 {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-ordenada .caixa-icons a {}
+
+.secao-elementos .coluna-1 .caixa-lista .listas .caixa-lista-ordenada .caixa-icons a i {}
+
+/* ÁREA DEFINIÇÃO */
+.secao-elementos .coluna-1 .caixa-lista-definicao 
+{}
+.secao-elementos .coluna-1 .caixa-lista-definicao h3 {}
+
+.secao-elementos .coluna-1 .caixa-lista-definicao .lista-definicao {}
+
+.secao-elementos .coluna-1 .caixa-lista-definicao .lista-definicao .termo {}
+
+.secao-elementos .coluna-1 .caixa-lista-definicao .lista-definicao .descricao {}
+
+/* ÁREA ACTIONS  */
+.secao-elementos .coluna-1 .caixa-actions {}
+
+.secao-elementos .coluna-1 .caixa-actions h3 {}
+
+/* LISTA DEFAULT GRANDE */
+.secao-elementos .coluna-1 .caixa-actions .lista-default-g {}
+
+.secao-elementos .coluna-1 .caixa-actions .lista-default-g .item-default {}
+
+.secao-elementos .coluna-1 .caixa-actions .lista-default-g .item-default a {}
+
+/* LISTA SMALL PEQUENO */
+.secao-elementos .coluna-1 .caixa-actions .lista-small-p {}
+
+.secao-elementos .coluna-1 .caixa-actions .lista-small-p .item-small {}
+
+.secao-elementos .coluna-1 .caixa-actions .lista-small-p .item-small a {}
+
+/* LISTAS DEFAULT E SMALL */
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small {}
+
+/* LISTA DEFAULT */
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-default {}
+
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-default .item-default {}
+
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-default .item-default a {}
+
+/* LISTA SMALL */
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-small {}
+
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-small .item-small {}
+
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-small .item-small .item-small a {}
+
+/* LISTA DEFAULT COM LARGURA MAIOR */
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-default-largura {}
+
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-default-largura .item-default {}
+
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-default-largura .item-default a.a-largura-maior {}
+
+/* LISTA SMALL COM LARGURA MAIOR  */
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-small-largura {}
+
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-small-largura .item-small {}
+
+.secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-small-largura .item-small a.a-largura-maior {}
+
+/* ÁREA BLOCKQUOTE */
+.secao-elementos .coluna-1 .caixa-blockquote {}
+
+.secao-elementos .coluna-1 .caixa-blockquote h3 {}
+
+.secao-elementos .coluna-1 .caixa-blockquote blockquote {}
+
+/* ÁREA TABELA */
+.secao-elementos .coluna-1 .caixa-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela h3 {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas h4 {}
+
+/* TABELA DEFAULT */
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela .linha-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela .linha-tabela .dado {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela .dado {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela .num {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .rodape-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .rodape-tabela .linha-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .rodape-tabela .linha-tabela .num {}
+
+/* TABELA ALTERNATE */
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .cabecalho-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .cabecalho-tabela .linha-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .cabecalho-tabela .linha-tabela .dado {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela .dado {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela .num {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .rodape-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .rodape-tabela .linha-tabela {}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .rodape-tabela .linha-tabela .num {}
