@@ -643,7 +643,168 @@
                 <div class="coluna-2">
 
                     <!-- ÁREA BOTÕES -->
-                    <div class="caixa-botoes"></div>
+                    <div class="caixa-botoes">
+
+                        <h3>Buttons</h3>
+
+                        <!-- LISTA SPECIAL - DEFAULT - ALTERNATE -->
+                        <ul class="lista-especial-default-alternate">
+
+                            <li class="item-special">
+
+                                <a href="#" class="botao-azul">Special</a>
+
+                            </li>
+
+                            <li class="item-default">
+
+                                <a href="#" class="botao-cinza">Default</a>
+
+                            </li>
+
+                            <li class="item-alternate">
+
+                                <a href="#" class="botao-branco">Alternate</a>
+
+                            </li>
+
+                        </ul>
+
+                        <!-- LISTA BIG - DEFAULT - SMALL -->
+                        <ul class="lista-big-default-small">
+
+                            <li class="item-big">
+
+                                <a href="#" class="botao-azul">Big</a>
+
+                            </li>
+
+                            <li class="item-default">
+
+                                <a href="#" class="botao-cinza">Default</a>
+
+                            </li>
+
+                            <li class="item-alternate">
+
+                                <a href="#" class="botao-branco">Small</a>
+
+                            </li>
+
+                        </ul>
+
+                        <!-- LISTA FIT - FIT - FIT -->
+                        <ul class="lista-fit">
+
+                            <li class="item-fit">
+
+                                <a href="#" class="botao-azul">Fit</a>
+
+                            </li>
+
+                            <li class="item-fit">
+
+                                <a href="#" class="botao-cinza">Fit</a>
+
+                            </li>
+
+                            <li class="item-fit">
+
+                                <a href="#" class="botao-branco">Fit</a>
+
+                            </li> 
+
+                        </ul>
+
+                        <!-- LISTA FIT+SMALL - FIT+SMALL - FIT+SMALL -->
+                        <ul class="lista-fit-small">
+
+                            <li class="item-fit-p">
+
+                                <a href="#" class="botao-azul">Fit + Small</a>
+
+                            </li>
+
+                            <li class="item-fit-p">
+
+                                <a href="#" class="botao-cinza">Fit + Small</a>
+
+                            </li>
+
+                            <li class="item-fit-p">
+
+                                <a href="#" class="botao-branco">Fit + Small</a>
+
+                            </li> 
+
+                        </ul>
+
+                        <!-- LISTA ICON - ICON - ICON -->
+                        <ul class="lista-icon">
+
+                            <li class="item-icon">
+
+                                <a href="#" class="botao-azul">
+
+                                    <span class="icon"><i class="fa-solid icon fa-magnifying-glass"></i></span>
+
+                                    Icon
+
+                                </a>
+
+                            </li>
+
+                            <li class="item-icon">
+
+                                <a href="#" class="botao-azul">
+
+                                    <span class="icon"><i class="fa-solid icon fa-download"></i></span>
+
+                                    Icon
+
+                                </a>
+
+                            </li>
+
+                            <li class="item-icon">
+
+                                <a href="#" class="botao-azul">
+
+                                    <span class="icon"><i class="fa-sharp fa-solid fa-check"></i></span>
+
+                                    Icon
+
+                                </a>
+
+                            </li>
+
+
+                        </ul>
+
+                        <!-- LISTA SPECIAL - DEFAULT - ALTERNATE CINZA -->
+                        <ul class="lista-especial-default-alternate-cinza">
+
+                            <li class="item-special" class="item-cinza">
+
+                                <span class="botao-cinza">Special</span>
+
+                            </li>
+
+                            <li class="item-default" class="item-cinza">
+
+                                <span class="botao-cinza">Default</span>
+
+                            </li>
+
+                            <li class="item-alternate" class="item-cinza">
+
+                                <span class="botao-cinza">Alternate</span>
+                                
+                            </li>
+
+                        </ul>
+
+                    </div>
 
                     <!-- ÁREA FORMULÁRIO -->
                     <div class="caixa-form">
@@ -674,7 +835,7 @@
                             </fieldset>
 
                             <!-- CATEGORIA -->
-                            <select name="categoria" id="categoria">
+                            <select name="categoria" id="categoria" required>
 
                                 <option disabled selected>-Category-</option>
 
@@ -691,15 +852,203 @@
                             <!-- PRIORIDADE -->
                             <fieldset class="grupo-prioridade">
 
-                                <div class="caixa-low-priority"></div>
+                                <div class="caixa-low-priority">
 
-                                <div class="caixa-normal-priority"></div>
+                                    <input type="radio" name="prioridade" id="low" required>
+
+                                    <label for="low">Low Priority</label>
+
+                                </div>
+
+                                <div class="caixa-normal-priority">
+
+                                    <input type="radio" name="prioridade" id="normal" required>
+
+                                    <label for="normal">Normal Priority</label>
+
+                                </div>
                                 
-                                <div class="caixa-high-priority"></div>
+                                <div class="caixa-high-priority">
+
+                                    <input type="radio" name="prioridade" id="high" required>
+
+                                    <label for="high">High Priority</label>
+
+                                </div>
 
                             </fieldset>
 
+                            <!-- ÁREA DE "COPIAR MENSAGEM" E "EU NÃO SOU UM ROBO" -->
+                            <fieldset class="mensagem-robo">
+
+                                <!-- CÓPIA DESSA MENSAGEM EMAIL -->
+                                <div class="caixa-copia-mensagem">
+
+                                    <input type="checkbox" name="copia-mensagem" id="copia-mensagem">
+
+                                    <label for="copia-mensagem">Email me a copy of this message</label>
+
+                                </div>
+
+                                <!-- ÁREA EU NÃO SOU UM ROBO -->
+                                <div class="caixa-eu-n-robo">
+
+                                    <input type="checkbox" name="n-sou-robo" id="n-sou-robo">
+
+                                    <label for="n-sou-robo">I am a human and not a robot</label>
+
+                                </div>
+
+
+                            </fieldset>
+
+                            <!-- MENSAGEM  -->
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+
+                            <!-- ENVIAR E LIMPAR -->
+                            <fieldset class="enviar-limpar">
+
+                                <!-- ENVIAR -->
+                                <div class="caixa-enviar">
+
+                                    <input type="submit" value="Send Message">
+
+                                </div>
+
+                                <!-- LIMPAR -->
+                                <div class="caixa-limpar">
+
+                                    <input type="reset" value="Reset">
+
+                                </div>
+
+                            </fieldset>
+
+
                         </form>
+
+                    </div>
+
+                    <!-- ÁREA CONSULTA -->
+                    <form action="" method="post">
+
+                        <div class="caixa-consulta">
+
+                            <!-- CONSULTA -->
+                            <input type="search" name="consulta" id="consulta" placeholder="Query">
+
+                            <!-- ENVIAR CONSULTA -->
+                            <input type="submit" name="enviar-consulta" id="enviar-consulta" value="Search">
+
+                        </div>
+
+                    </form>
+
+                    <!-- ÁREA IMAGENS  -->
+                    <div class="caixa-imagens">
+
+                        <h3>Image</h3>
+
+                        <!-- IMAGENS FIT -->
+                        <div class="img-fit">
+
+                            <h4>Fit</h4>
+
+                            <div class="img-grande">
+
+                                <img src="imagens/pic01.jpg" alt="Paisagem de uma estrada">
+
+                            </div>
+
+                            <div class="img-pequena">
+
+                                <img src="imagens/pic01.jpg" alt="Paisagem de uma estrada">
+
+                                <img src="imagens/pic01.jpg" alt="Paisagem de uma estrada">
+
+                                <img src="imagens/pic01.jpg" alt="Paisagem de uma estrada">
+
+                                <img src="imagens/pic01.jpg" alt="Paisagem de uma estrada">
+
+                                <img src="imagens/pic01.jpg" alt="Paisagem de uma estrada">
+
+                                <img src="imagens/pic01.jpg" alt="Paisagem de uma estrada">
+                                
+                                <img src="imagens/pic01.jpg" alt="Paisagem de uma estrada">
+                                
+                                <img src="imagens/pic01.jpg" alt="Paisagem de uma estrada">
+
+                                <img src="imagens/pic01.jpg" alt="Paisagem de uma estrada">
+
+                            </div>
+
+                        </div>
+
+                        <!-- IMAGENS LEFT E RIGHT -->
+                        <div class="img-left-right">
+
+                            <h4>Left & Right</h4>
+
+                            <div class="img-p">
+
+                                <img src="imagens/pic02.jpg" alt="Uma pessoa com uma câmera">
+                                
+                                <p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
+
+                            </div>
+
+                            <div class="img-p">
+
+                                <img src="imagens/pic02.jpg" alt="Uma pessoa com uma câmera" id="img-right">
+                                
+                                <p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
+                                
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <!-- ÁREA BOX -->
+                    <div class="area-box">
+
+                        <h3>Box</h3>
+
+                        <div class="texto-box">
+
+                            <p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam.</p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- ÁREA Preformatted -->
+                    <div class="caixa-pre-formatada">
+
+                        <h3>Preformatted</h3>
+
+                        <div class="texto-code">
+
+                            <pre>
+
+                                <code>
+                                    
+                                    i = 0;
+
+                                    while (!deck.isInOrder()) {
+                                        print 'Iteration ' + i;
+                                        deck.shuffle();
+                                        i++;
+                                    }
+
+                                    print 'It took ' + i + ' iterations to sort the deck.';
+
+                                </code>
+
+                            </pre>
+
+                        </div>
 
                     </div>
 
