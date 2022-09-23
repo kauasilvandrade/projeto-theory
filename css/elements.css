@@ -233,3 +233,235 @@
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .rodape-tabela .linha-tabela {}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .rodape-tabela .linha-tabela .num {}
+
+/* COLUNA 2 */
+.secao-elementos .coluna-2 {}
+
+/* ÁREA BOTÕES */
+.secao-elementos .coluna-2 .caixa-botoes {}
+
+.secao-elementos .coluna-2 .caixa-botoes h3 {}
+
+/* LISTA SPECIAL - DEFAULT - ALTERNATE */
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate .item-special {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate .item-special .botao-azul {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate .item-default {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate .item-default .botao-cinza {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate .item-alternate {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate .item-alternate .botao-branco {}
+
+/* LISTA BIG - DEFAULT - SMALL */
+.secao-elementos .coluna-2 .caixa-botoes .lista-big-default-small {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-big-default-small .item-big {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-big-default-small .item-big .botao-azul {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-big-default-small .item-default {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-big-default-small .item-default .botao-cinza {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-big-default-small .item-alternate {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-big-default-small .item-alternate .botao-branco {}
+
+/* LISTA FIT - FIT - FIT */
+.secao-elementos .coluna-2 .caixa-botoes .lista-fit {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-fit .item-fit {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-fit .item-fit .botao-azul {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-fit .item-fit .botao-cinza {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-fit .item-fit .botao-branco {}
+
+/* LISTA FIT+SMALL - FIT+SMALL - FIT+SMALL */
+.secao-elementos .coluna-2 .caixa-botoes .lista-fit-small {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-fit-small .item-fit-p {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-fit-small .item-fit-p .botao-azul {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-fit-small .item-fit-p .botao-cinza {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-fit-small .item-fit-p .botao-branco {}
+
+/* LISTA ICON - ICON - ICON */
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon .item-icon {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon .item-icon .botao-azul {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon .item-icon .botao-azul span {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon .item-icon .botao-azul span i {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon .item-icon .botao-cinza {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon .item-icon .botao-cinza span {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon .item-icon .botao-cinza span i {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon .item-icon .botao-branco {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon .item-icon .botao-branco span {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-icon .item-icon .botao-branco span i {}
+
+/* LISTA SPECIAL - DEFAULT - ALTERNATE CINZA */
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate-cinza {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate-cinza .item-special {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate-cinza .item-cinza {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate-cinza .item-special .botao-cinza {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate-cinza .item-default {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate-cinza .item-default .botao-cinza {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate-cinza .item-alternate {}
+
+.secao-elementos .coluna-2 .caixa-botoes .lista-especial-default-alternate-cinza .item-alternate .botao-cinza {}
+
+/* ÁREA FORMULÁRIO */
+.secao-elementos .coluna-2 .caixa-form {}
+
+.secao-elementos .coluna-2 .caixa-form h3 {}
+
+.secao-elementos .coluna-2 .caixa-form form {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email {}
+
+/* NOME */
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-nome {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-nome input {}
+
+/* EMAIL */
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-email {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-email input {}
+
+/* CATEGORIA */
+.secao-elementos .coluna-2 .caixa-form form select {}
+
+.secao-elementos .coluna-2 .caixa-form form select option {}
+
+/* PRIORIDADE */
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-low-priority {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-low-priority input {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-low-priority label {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-normal-priority {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-normal-priority input {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-normal-priority label {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-high-priority {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-high-priority input {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-high-priority label {}
+
+/* COPIAR MENSAGEM E NÃO SOU UM ROBÔ */
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-copia-mensagem {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-copia-mensagem input {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-copia-mensagem label {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-eu-n-robo {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-eu-n-robo input {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-eu-n-robo label {}
+
+/* MENSGAGEM */
+.secao-elementos .coluna-2 .caixa-form form textarea {}
+
+/* ENVIAR E LIMPAR */
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar {}
+
+/* ENVIAR */
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-enviar {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-enviar input {}
+
+/* LIMPAR */
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-limpar {}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-limpar input {}
+
+/* ÁREA CONSULTA */
+.secao-elementos .coluna-2 .form-consulta {}
+
+.secao-elementos .coluna-2 .form-consulta .caixa-consulta {}
+
+.secao-elementos .coluna-2 .form-consulta .caixa-consulta input {}
+
+/* ÁREA IMAGENS */
+.secao-elementos .coluna-2 .caixa-imagens {}
+
+.secao-elementos .coluna-2 .caixa-imagens h3 {}
+
+/* IMAGENS FIT */
+.secao-elementos .coluna-2 .caixa-imagens .img-fit {}
+
+.secao-elementos .coluna-2 .caixa-imagens .img-fit h4 {}
+
+.secao-elementos .coluna-2 .caixa-imagens .img-fit .img-grande {}
+
+.secao-elementos .coluna-2 .caixa-imagens .img-fit .img-grande img {}
+
+.secao-elementos .coluna-2 .caixa-imagens .img-fit .img-pequena {}
+
+.secao-elementos .coluna-2 .caixa-imagens .img-fit .img-pequena img {}
+
+/* IMAGENS LEFT E RIGHT */
+.secao-elementos .coluna-2 .caixa-imagens .img-left-right {}
+
+.secao-elementos .coluna-2 .caixa-imagens .img-left-right h4 {}
+
+.secao-elementos .coluna-2 .caixa-imagens .img-left-right .img-p {}
+
+.secao-elementos .coluna-2 .caixa-imagens .img-left-right .img-p img {}
+
+.secao-elementos .coluna-2 .caixa-imagens .img-left-right .img-p p {}
+
+/* ÁREA BOX */
+.secao-elementos .coluna-2 .area-box {}
+
+.secao-elementos .coluna-2 .area-box h3 {}
+
+.secao-elementos .coluna-2 .area-box .texto-box {}
+
+.secao-elementos .coluna-2 .area-box .texto-box p {}
+
+/* ÁREA Preformatted  */
+.secao-elementos .coluna-2 .caixa-pre-formatada {}
+
+.secao-elementos .coluna-2 .caixa-pre-formatada h3 {}
+
+.secao-elementos .coluna-2 .caixa-pre-formatada .texto-code {}
+
+.secao-elementos .coluna-2 .caixa-pre-formatada .texto-code pre {}
+
+.secao-elementos .coluna-2 .caixa-pre-formatada .texto-code pre code {}
