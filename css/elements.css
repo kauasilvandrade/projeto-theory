@@ -51,7 +51,10 @@ body {
 }
 
 /* SEÇÃO DE BLOCO DE TEXTO */
-.secao-blocos-textos {}
+.secao-blocos-textos {
+    padding-bottom: 2rem;
+    border-bottom: solid 1px #dbdbdb;
+}
 
 .secao-blocos-textos .bloco-texto {}
 
@@ -93,6 +96,14 @@ body {
     font-size: 0.9em;
 }
 
+.conteudo .container > h2 {
+    margin-top: 3rem;
+    color: var(--cor1);
+    font-weight: 100;
+    font-size: 1.6em;
+    margin-bottom: 2rem;
+}
+
 /* SEÇÃO ELEMENTOS */
 .secao-elementos {}
 
@@ -100,13 +111,28 @@ body {
 .secao-elementos .coluna-1 {}
 
 /* ÁREA TEXTO  */
-.secao-elementos .coluna-1 .caixa-texto {}
+.secao-elementos .coluna-1 .caixa-texto {
+    border-bottom: solid 1px #dbdbdb;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
 
-.secao-elementos .coluna-1 .caixa-texto h3 {}
+.secao-elementos .coluna-1 .caixa-texto h3 {
+    color: #6694cc;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
 
-.secao-elementos .coluna-1 .caixa-texto p {}
+.secao-elementos .coluna-1 .caixa-texto p {
+    color: #7a7979;
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
 
-.secao-elementos .coluna-1 .caixa-texto p strong {}
+.secao-elementos .coluna-1 .caixa-texto p strong {
+    color: #444343;
+}
 
 .secao-elementos .coluna-1 .caixa-texto p em {}
 
@@ -114,35 +140,92 @@ body {
 
 .secao-elementos .coluna-1 .caixa-texto p sub {}
 
-.secao-elementos .coluna-1 .caixa-texto p ins {}
+.secao-elementos .coluna-1 .caixa-texto p ins {
+    text-underline-position: under;
+}
 
-.secao-elementos .coluna-1 .caixa-texto p span {}
+.secao-elementos .coluna-1 .caixa-texto p code {
+    background: rgba(144, 144, 144, 0.075);
+    border: solid 1px #dbdbdb;
+    padding: 0.25rem;
+    font-size: 0.9em;
+    font-family: "Courier New", monospace;
+}
 
 /* ÁREA HEADING */
-.secao-elementos .coluna-1 .caixa-heading {}
+.secao-elementos .coluna-1 .caixa-heading {
+    border-bottom: solid 1px #dbdbdb;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.1em;
+}
 
-.secao-elementos .coluna-1 .caixa-heading h2 {}
+.secao-elementos .coluna-1 .caixa-heading h2 {
+    color: var(--cor1);
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
 
-.secao-elementos .coluna-1 .caixa-heading h3 {}
+.secao-elementos .coluna-1 .caixa-heading h3 {
+    color: var(--cor1);
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
 
-.secao-elementos .coluna-1 .caixa-heading h4 {}
+.secao-elementos .coluna-1 .caixa-heading h4 {
+    color: var(--cor1);
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
 
-.secao-elementos .coluna-1 .caixa-heading h5 {}
+.secao-elementos .coluna-1 .caixa-heading h5 {
+    color: var(--cor1);
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
 
-.secao-elementos .coluna-1 .caixa-heading h6 {}
+.secao-elementos .coluna-1 .caixa-heading h6 {
+    color: var(--cor1);
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
 
 /* DESCRIÇÃO HEADING */
 .secao-elementos .coluna-1 .descricao-heading {}
 
-.secao-elementos .coluna-1 .descricao-heading h3 {}
+.secao-elementos .coluna-1 .descricao-heading h2 {
+    color: var(--cor1);
+    font-weight: 100;
+    font-size: 2.3em;
+    margin-bottom: 0.5rem;
+}
 
-.secao-elementos .coluna-1 .descricao-heading p.p-bottom {}
+.secao-elementos .coluna-1 .descricao-heading p.p-bottom {
+    color: var(--cor2);
+    font-size: 0.9em;
+    margin-bottom: 4rem;
+}
 
-.secao-elementos .coluna-1 .descricao-heading p {}
+.secao-elementos .coluna-1 .descricao-heading p {
+    color: var(--cor2);
+    font-size: 0.9em;
+    margin-bottom: 2rem;
+    line-height: 1.5em;
+}
 
-.secao-elementos .coluna-1 .descricao-heading h3 {}
+.secao-elementos .coluna-1 .descricao-heading h3 {
+    color: var(--cor1);
+    font-weight: 100;
+    font-size: 1.3em;
+    margin-bottom: 0.5rem;
+}
 
-.secao-elementos .coluna-1 .descricao-heading h4 {}
+.secao-elementos .coluna-1 .descricao-heading h4 {
+    color: var(--cor1);
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+    font-size: 1.1em;
+}
 
 /* ÁREA COM LISTAS */
 .secao-elementos .coluna-1 .caixa-lista {}
