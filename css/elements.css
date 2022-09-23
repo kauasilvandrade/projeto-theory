@@ -1,24 +1,97 @@
+@charset "UTF-8";
 
+/* FONTES */
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fontes/raleway.ttf') format('truetype');
+}
+
+/* PALETA DE CORES */
+:root {
+    --cor0: #fff;
+    --cor1: #5385C1;
+    --cor2: #afaeae;
+    --cor3: #000;
+}
+
+/* CONFIGURAÇÕES GLOBAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO */
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1098px;
+    margin: auto;
+}
 
 /* CONTÉUDO */
 .conteudo {}
 
-.conteudo h1 {}
+.conteudo h1 {
+    color: var(--cor1);
+    font-weight: 100;
+    text-align: center;
+    margin-top: 5.7rem;
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+}
 
-.conteudo h2 {}
-
-.conteudo p {}
+.conteudo .container > p {
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 4.2rem;
+    color: var(--cor2);
+}
 
 /* SEÇÃO DE BLOCO DE TEXTO */
 .secao-blocos-textos {}
 
 .secao-blocos-textos .bloco-texto {}
 
-.secao-blocos-textos .bloco-texto h2 {}
+.secao-blocos-textos .bloco-texto h2 {
+    color: var(--cor1);
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
 
-.secao-blocos-textos .bloco-texto h3 {}
+.secao-blocos-textos .bloco-texto p {
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    color: var(--cor2);
+    line-height: 1.7em;
+    font-size: 0.9em;
+}
 
-.secao-blocos-textos .bloco-texto p {}
+.secao-blocos-textos .blocos {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.secao-blocos-textos .blocos .bloco-texto {
+    width: 50%;
+}
+
+.secao-blocos-textos .blocos .bloco-texto h3 {
+    color: #6694cc;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+.secao-blocos-textos .blocos .bloco-texto p {
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    color: var(--cor2);
+    line-height: 1.7em;
+    font-size: 0.9em;
+}
 
 /* SEÇÃO ELEMENTOS */
 .secao-elementos {}

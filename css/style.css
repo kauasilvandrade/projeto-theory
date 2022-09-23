@@ -96,7 +96,7 @@ body {
 
 .cabecalho .logo-menu .lista-menu .item-menu a:hover {
     transition: .5s;
-    color: var(--cor1);
+    color: #bacee6;
 }
 
 .cabecalho h1 {
@@ -227,7 +227,7 @@ body {
 
 .secao-nunc .h1 {
     text-align: center;
-    color: #bacee6;
+    color: var(--cor1);
     font-weight: 100;
     font-size: 2.5em;
     margin-bottom: 1rem;
