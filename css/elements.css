@@ -643,7 +643,7 @@ body {
 
 .secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-small-largura .item-small a.a-largura-maior {
     font-weight: bold;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.7rem;
     display: block;
     font-size: 0.9em;
 }
@@ -686,64 +686,143 @@ body {
 /* ÁREA BLOCKQUOTE */
 .secao-elementos .coluna-1 .caixa-blockquote {}
 
-.secao-elementos .coluna-1 .caixa-blockquote h3 {}
+.secao-elementos .coluna-1 .caixa-blockquote h3 {
+    color: #6694cc;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
 
-.secao-elementos .coluna-1 .caixa-blockquote blockquote {}
+.secao-elementos .coluna-1 .caixa-blockquote blockquote {
+    color: var(--cor2);
+    line-height: 1.5em;
+    padding-left: 2.5rem;
+    border-left: 4px solid #dbdbdb;
+    margin-bottom: 2rem;    
+    line-height: 1.5em;
+    font-size: 0.9em;   
+}
 
 /* ÁREA TABELA */
 .secao-elementos .coluna-1 .caixa-tabela {}
 
-.secao-elementos .coluna-1 .caixa-tabela h3 {}
+.secao-elementos .coluna-1 .caixa-tabela h3 {
+    color: #6694cc;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas {}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas h4 {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas h4 {
+    color: var(--cor1);
+    margin-top: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+    font-size: 1.1em;
+}
 
 /* TABELA DEFAULT */
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default {
+    border-collapse: collapse;
+    width: 100%;
+    color: var(--cor2);
+}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela {}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela .linha-tabela {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela .linha-tabela {
+    border-bottom: 2px solid #dbdbdb;
+}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela .linha-tabela .dado {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela .linha-tabela .dado {
+    color: #555;
+    font-size: 0.9em;
+    padding: 0.75rem 0.75rem;
+}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela .linha-tabela .th-left {
+    text-align: left;
+}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela {}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela {
+    border-top: 1px solid #c4c2c2;
+    border-bottom: 1px solid #c4c2c2;
+}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela .dado {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela:nth-child(odd) {
+    background-color: rgba(144, 144, 144, 0.075);
+}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela .num {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela .dado {
+    padding: 0.75rem 0.75rem;
+    font-size: 0.9em;
+}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela .num {
+    text-align: center;
+}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .rodape-tabela {}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .rodape-tabela .linha-tabela {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .rodape-tabela .linha-tabela {
+    border-top: 2px solid #dbdbdb;
+}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .rodape-tabela .linha-tabela .num {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .rodape-tabela .linha-tabela .num {
+    text-align: right;
+    padding: 0.75rem 0.5rem 0.75rem 0.75rem;
+}
 
 /* TABELA ALTERNATE */
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate {
+    border-collapse: collapse;
+    width: 100%;
+    color: var(--cor2);
+}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .cabecalho-tabela {}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .cabecalho-tabela .linha-tabela {}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .cabecalho-tabela .linha-tabela .dado {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .cabecalho-tabela .linha-tabela .dado {
+    color: #555;
+    font-size: 0.9em;
+    padding: 0.75rem 0.75rem;
+    text-align: left;
+}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela {}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela {}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela .dado {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela:nth-child(odd) {
+    background-color: rgba(144, 144, 144, 0.075);
+}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela .num {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela .dado {
+    color: #555;
+    font-size: 0.9em;
+    border: solid 1px #dbdbdb;
+    padding: 0.75rem 0.75rem;
+}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela .num {
+    border: solid 1px #dbdbdb;
+    padding: 0.75rem 0.75rem;
+}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .rodape-tabela {}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .rodape-tabela .linha-tabela {}
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .rodape-tabela .linha-tabela .num {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .rodape-tabela .linha-tabela .num {
+    padding: 0.7rem 1.1rem 0.75rem 0.75rem;
+    text-align: right;
+}
 
 /* COLUNA 2 */
 .secao-elementos .coluna-2 {}
