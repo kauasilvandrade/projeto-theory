@@ -112,7 +112,7 @@ body {
 /* COLUNA 1 */
 .secao-elementos .coluna-1 {
     width: 49%;
-    margin-right: 3.5rem;
+    margin-right: 3.2rem;
 }
 
 /* ÁREA TEXTO  */
@@ -1190,20 +1190,68 @@ body {
 
 .secao-elementos .coluna-2 .caixa-form form {}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
 
 /* NOME */
-.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-nome {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-nome {
+    width: 50%;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-nome input {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-nome input {
+    padding: 0.7rem 1rem;
+    background: rgba(144, 144, 144, 0.075);
+    border: 2px solid #dbdbdb;
+    outline: none;
+    width: 100%;
+}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-nome input::placeholder {
+    color: #9c9b9b;
+    font-size: 1.1em;
+}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-nome input:focus-visible {
+    border: 2px solid #1c5497;
+}
 
 /* EMAIL */
-.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-email {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-email {
+    width: 50%;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-email input {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-email input {
+    padding: 0.7rem 1rem;
+    background: rgba(144, 144, 144, 0.075);
+    border: 2px solid #dbdbdb;
+    outline: none;
+    width: 100%;
+}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-email input::placeholder {
+    color: #9c9b9b;
+    font-size: 1.1em;
+}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-email input:focus-visible {
+    border: 2px solid #1c5497;
+}
 
 /* CATEGORIA */
-.secao-elementos .coluna-2 .caixa-form form select {}
+.secao-elementos .coluna-2 .caixa-form form select {
+    padding: 0.7rem 1rem;
+    background: rgba(144, 144, 144, 0.075);
+    border: 2px solid #dbdbdb;
+    outline: none;
+    width: 100%;
+    margin-bottom: 2rem;
+}
 
 .secao-elementos .coluna-2 .caixa-form form select option {}
 
