@@ -1179,7 +1179,10 @@ body {
 }
 
 /* ÁREA FORMULÁRIO */
-.secao-elementos .coluna-2 .caixa-form {}
+.secao-elementos .coluna-2 .caixa-form {
+    border-bottom: solid 1px #dbdbdb;
+    margin-bottom: 2rem;
+}
 
 .secao-elementos .coluna-2 .caixa-form h3 {
     color: #6694cc;
@@ -1244,75 +1247,249 @@ body {
 }
 
 /* CATEGORIA */
-.secao-elementos .coluna-2 .caixa-form form select {
+.secao-elementos .coluna-2 .caixa-form form .caixa-categoria .icone-select {
+    position: relative;
+}
+
+.secao-elementos .coluna-2 .caixa-form form .caixa-categoria .icone-select::before {
+    content: "\f078";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.secao-elementos .coluna-2 .caixa-form form .caixa-categoria .icone-select::before {
+    height: 2.6rem;
+    line-height: 2.2em;
+    pointer-events: none;
+    font-size: 1.2em;
+    width: 3rem;
+    text-align: center;
+    color: #9c9b9b;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+
+.secao-elementos .coluna-2 .caixa-form form .caixa-categoria select {
     padding: 0.7rem 1rem;
     background: rgba(144, 144, 144, 0.075);
     border: 2px solid #dbdbdb;
     outline: none;
     width: 100%;
     margin-bottom: 2rem;
+    font-size: 1em;
+    appearance: none;
+    color: #9c9b9b;
+    cursor: pointer;
 }
 
-.secao-elementos .coluna-2 .caixa-form form select option {}
+.secao-elementos .coluna-2 .caixa-form form .caixa-categoria select:focus-visible {
+    border: 2px solid #1c5497;
+}
+
+.secao-elementos .coluna-2 .caixa-form form .caixa-categoria select option {
+    cursor: pointer;
+}
 
 /* PRIORIDADE */
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade {
+    border: none;
+    font-size: 1.1em;
+    gap: 3rem;
+    color: #9c9b9b;
+    display: flex;
+    margin-bottom: 2rem;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-low-priority {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade {
+    position: relative;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-low-priority input {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade input {
+    display: none;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-low-priority label {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade label::before {
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 1.6rem;
+    width: 1.6rem;
+    position: absolute;
+    background: rgba(144, 144, 144, 0.158);
+    border: 1px solid #dbdbdb;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-normal-priority {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade label {
+    margin-left: 2.2rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-normal-priority input {}
-
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-normal-priority label {}
-
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-high-priority {}
-
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-high-priority input {}
-
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-high-priority label {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade input:checked ~ label::before {
+    content: '\f00c';
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    border-color: #555;
+    text-align: center;
+    color: white;
+    line-height: 1.5em;
+    background-color: #555;
+    text-transform: none !important;
+    transition: .3s ease;
+    transform: scale(1);
+}
 
 /* COPIAR MENSAGEM E NÃO SOU UM ROBÔ */
-.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo {
+    display: flex;
+    border: none;
+    gap: 2rem;
+    color: #9c9b9b;
+    margin-bottom: 2rem;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-copia-mensagem {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo input {
+    display: none;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-copia-mensagem input {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo label {
+    margin-left: 2.2rem;
+    line-height: 1.6em;
+    cursor: pointer;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-copia-mensagem label {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo label::before {
+    content: '';
+    display: block;
+    height: 1.6rem;
+    width: 1.6rem;
+    position: absolute;
+    background: rgba(144, 144, 144, 0.158);
+    border: 1px solid #dbdbdb;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-eu-n-robo {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo input:checked ~ ::before {
+    content: '\f00c';
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    border-color: #555;
+    text-align: center;
+    color: white;
+    line-height: 1.5em;
+    background-color: #555;
+    text-transform: none !important;
+    transition: .3s ease;
+    transform: scale(1);
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-eu-n-robo input {}
-
-.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-eu-n-robo label {}
 
 /* MENSGAGEM */
-.secao-elementos .coluna-2 .caixa-form form textarea {}
+.secao-elementos .coluna-2 .caixa-form form textarea {
+    padding: 0.7rem 1rem;
+    outline: none;
+    width: 100%;
+    background: rgba(144, 144, 144, 0.158);
+    border: 2px solid #dbdbdb;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.secao-elementos .coluna-2 .caixa-form form textarea:focus-visible {
+    border: 2px solid #1c5497;
+}
+
+.secao-elementos .coluna-2 .caixa-form form textarea::placeholder {
+    color: #9c9b9b;
+    font-size: 1.1em;
+}
 
 /* ENVIAR E LIMPAR */
-.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar {
+    display: flex;
+    border: none;
+    gap: 2rem;
+}
 
 /* ENVIAR */
-.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-enviar {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-enviar {
+    margin-bottom: 2rem;
+}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-enviar input {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-enviar input {
+    font-weight: bold;
+    padding: 0.7rem 1.3rem;
+    display: block;
+    color: white;
+    background-color: #555;
+    border: none;
+    font-size: 1em;
+}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-enviar input:hover {
+    background-color: #252525;
+    transition: .5s;
+}
 
 /* LIMPAR */
 .secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-limpar {}
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-limpar input {}
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-limpar input {
+    font-weight: bold;
+    padding: 0.7rem 1.3rem;
+    display: block;
+    font-size: 1em;
+    background-color: white;
+    color: #555;
+    box-shadow: inset 0 0 0 2px #dbdbdb;
+    border: none;
+}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-limpar input:hover {
+    background-color: #797777;
+    transition: .5s;
+    color: white;
+}
 
 /* ÁREA CONSULTA */
 .secao-elementos .coluna-2 .form-consulta {}
 
-.secao-elementos .coluna-2 .form-consulta .caixa-consulta {}
+.secao-elementos .coluna-2 .form-consulta .caixa-consulta {
+    display: flex;
+    gap: 2rem;
+}
 
-.secao-elementos .coluna-2 .form-consulta .caixa-consulta input {}
+.secao-elementos .coluna-2 .form-consulta .caixa-consulta #consulta {
+    padding: 0.7rem 1rem;
+    background: rgba(144, 144, 144, 0.075);
+    border: 1px solid #dbdbdb;
+    outline: none;
+    width: 90%;
+}
+
+.secao-elementos .coluna-2 .form-consulta .caixa-consulta #enviar-consulta {
+    padding: 0.7rem 1rem;
+    background: rgba(144, 144, 144, 0.075);
+    outline: none;
+    font-weight: bold;
+    color: white;
+    background-color: #555;
+    border: none;
+    width: 20%;
+}
+
+.secao-elementos .coluna-2 .form-consulta .caixa-consulta #enviar-consulta:hover {
+    transition: .5s;
+    background-color: #252525;
+}
 
 /* ÁREA IMAGENS */
 .secao-elementos .coluna-2 .caixa-imagens {}
