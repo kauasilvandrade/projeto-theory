@@ -742,11 +742,15 @@ body {
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela .linha-tabela .dado {
     color: #555;
     font-size: 0.9em;
-    padding: 0.75rem 0.75rem;
+    padding: 0.80rem 0.75rem;
 }
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela .linha-tabela .th-left {
     text-align: left;
+}
+
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .cabecalho-tabela .linha-tabela .price {
+    padding-right: 1.5rem;
 }
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela {}
@@ -767,6 +771,7 @@ body {
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .corpo-tabela .linha-tabela .num {
     text-align: center;
+    padding-right: 0.6rem;
 }
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .rodape-tabela {}
@@ -777,13 +782,14 @@ body {
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default .rodape-tabela .linha-tabela .num {
     text-align: right;
-    padding: 0.75rem 0.5rem 0.75rem 0.75rem;
+    padding: 0.75rem 1rem 0.75rem 0.75rem;
 }
 
 /* TABELA ALTERNATE */
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate {
     border-collapse: collapse;
     width: 100%;
+    height: 320px;
     color: var(--cor2);
 }
 
@@ -798,7 +804,9 @@ body {
     text-align: left;
 }
 
-.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela {}
+.secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela {
+    height: 235px;
+}
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela {}
 
@@ -807,7 +815,6 @@ body {
 }
 
 .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate .corpo-tabela .linha-tabela .dado {
-    color: #555;
     font-size: 0.9em;
     border: solid 1px #dbdbdb;
     padding: 0.75rem 0.75rem;
@@ -1566,7 +1573,9 @@ body {
 }
 
 /* ÁREA BOX */
-.secao-elementos .coluna-2 .area-box {}
+.secao-elementos .coluna-2 .area-box {
+    margin-bottom: 2rem;
+}
 
 .secao-elementos .coluna-2 .area-box h3 {
     color: #6694cc;
@@ -1587,14 +1596,31 @@ body {
 }
 
 /* ÁREA Preformatted  */
-.secao-elementos .coluna-2 .caixa-pre-formatada {
-    display: none;
+.secao-elementos .coluna-2 .caixa-pre-formatada {}
+
+.secao-elementos .coluna-2 .caixa-pre-formatada h3 {
+    color: #6694cc;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-bottom: 1.2rem;
 }
 
-.secao-elementos .coluna-2 .caixa-pre-formatada h3 {}
+.secao-elementos .coluna-2 .caixa-pre-formatada .texto-code {
+}
 
-.secao-elementos .coluna-2 .caixa-pre-formatada .texto-code {}
+.secao-elementos .coluna-2 .caixa-pre-formatada .texto-code pre {
+    border: 1px solid #dbdbdb;
+    background: rgba(144, 144, 144, 0.075);
+    height: 170px;
+}
 
-.secao-elementos .coluna-2 .caixa-pre-formatada .texto-code pre {}
+.secao-elementos .coluna-2 .caixa-pre-formatada .texto-code pre code {
+    font-size: 0.9em;
+    color: #afafaf;
+}
 
-.secao-elementos .coluna-2 .caixa-pre-formatada .texto-code pre code {}
+/* RODAPÉ */
+.rodape {
+    margin-bottom: 2rem;
+    margin-top: 8rem;
+}

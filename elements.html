@@ -472,7 +472,7 @@
                                     
                                         <th class="dado th-left ">Description</th>
 
-                                        <th class="dado">Price</th>
+                                        <th class="dado price">Price</th>
                                         
                                     </tr>    
 
@@ -1040,21 +1040,17 @@
                         <div class="texto-code">
 
                             <pre>
+                                <code>                 
+    i = 0;
 
-                                <code>
-                                    
-                                    i = 0;
+    while (!deck.isInOrder()) {
+        print 'Iteration ' + i;
+        deck.shuffle();
+        i++;
+    }
 
-                                    while (!deck.isInOrder()) {
-                                        print 'Iteration ' + i;
-                                        deck.shuffle();
-                                        i++;
-                                    }
-
-                                    print 'It took ' + i + ' iterations to sort the deck.';
-
+    print 'It took ' + i + ' iterations to sort the deck.';
                                 </code>
-
                             </pre>
 
                         </div>
@@ -1064,6 +1060,50 @@
                 </div>
 
             </section>
+
+            <!-- RODAPÉ -->
+            <footer class="rodape">
+
+                <p>&copy; Untitled. Design: <a href="https://templated.co/" rel="external" target="_blank">TEMPLATED</a>. Images: <a href="https://unsplash.com/" rel="external" target="_blank">Unsplash</a>.</p>
+
+                <p>Desenvolvido por <a href="https://github.com/kauasilvandrade" target="_blank" rel="external">Kauã</a></p>
+
+                <!-- GRUPO DE IMAGENS REDE  -->
+                <div class="imagens-rede-socias">
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-twitter"></i>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-pinterest-p"></i>
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-vimeo-v"></i>
+
+                    </a>
+
+                </div>
+
+            </footer>
 
         </div>   
 
