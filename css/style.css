@@ -82,12 +82,19 @@ body {
 /* MENU */
 .cabecalho .logo-menu .lista-menu {
     display: flex;
-    gap: 1rem;
     list-style: none;
 }
 
 .cabecalho .logo-menu .lista-menu .item-menu {
     position: relative;
+}
+
+.cabecalho .logo-menu .lista-menu .item-menu:nth-child(1) {
+    margin-right: 1rem;
+}
+
+.cabecalho .logo-menu .lista-menu .item-menu:nth-child(2) {
+    margin-right: 1rem;
 }
 
 .cabecalho .logo-menu .lista-menu .item-menu a {
