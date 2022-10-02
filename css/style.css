@@ -355,15 +355,17 @@ body {
 }
 
 /* RESPONSVIDADE */
-@media screen and (max-width: 1119px) {
 
+/* DESKTOP */
+@media screen and (min-width: 1005px) and (max-width: 1200px) {
     .container {
         max-width: 965px;
         margin: auto;
     }
 }
 
-@media screen and (max-width: 1007px) {
+/* TABLET */
+@media screen and (max-width: 1005px) {
 
     /* CABEÇALHO */
     .cabecalho {
@@ -406,7 +408,6 @@ body {
     }
 
     .secao-ipsum .lista-pessoa {
-        width: 571px;
         list-style: none;
         display: flex;
         margin: auto;
@@ -425,8 +426,9 @@ body {
     }
 }
 
-@media screen and (max-width: 592px) {
-
+/* CELULAR */
+@media screen and (max-width: 768px) and (min-width: 320px) {
+        
     /* CABEÇALHO */
     .cabecalho h1, .cabecalho p {
         padding: 0 1rem;
@@ -444,7 +446,7 @@ body {
 
     .cabecalho .logo-menu .btn-check .btn-mark {
         display: block;
-    }
+    } 
 
     /* MENU */
     .cabecalho .logo-menu .lista-menu {
@@ -479,7 +481,7 @@ body {
         border-bottom: 1px solid #9ab5d6;
         border-top: 1px solid #9ab5d6;
         padding: 0.8rem 0;
-    }
+    } 
 
     /* SEÇAO IPSUM */
     .secao-ipsum .lista-pessoa {
@@ -495,7 +497,7 @@ body {
 
     .secao-ipsum .lista-pessoa .item-pessoa {
         width: 100%;
-    }
+    } 
 
     /* SEÇAO NUNC */
     .secao-nunc .artigos .artigo a {
@@ -507,12 +509,12 @@ body {
         width: 100%;
         text-align: center;
         padding: 0.8rem;
-    }
+    } 
 
     /* RODAPÉ */
     .rodape {
         padding-top: 2rem;
         gap: 2rem;
         flex-direction: column;
-    }
+    } 
 }
