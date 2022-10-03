@@ -47,6 +47,45 @@ body {
     margin-bottom: 0;
 }
 
+.cabecalho .logo-menu .lista-menu .item-menu {
+    position: relative;
+}
+
+.cabecalho .logo-menu .lista-menu .item-menu a {
+    position: relative;
+    text-decoration: none;
+    color: var(--cor0);
+    font-size: 0.9em;
+}
+
+.cabecalho .logo-menu .lista-menu .item-menu .underline::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 19px;
+}
+
+.cabecalho .logo-menu .lista-menu .item-menu .underline::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 19px;
+    transition: .3s;
+    transform-origin: left;
+    background-color: #2b4b74;
+    transform: scaleX(0);
+}
+
+.cabecalho .logo-menu .lista-menu .item-menu a:hover ~ .underline::after {
+    transform: scaleX(1);
+}
+
 .cabecalho .logo-menu .lista-menu .item-menu a {
     text-decoration: none;
     color: var(--cor0);
@@ -61,10 +100,25 @@ body {
     font-size: 0.9em;
 }
 
-@media screen and (max-width: 1007px) { 
+@media screen and (max-width: 1150px) { 
+    .container {
+        max-width: 965px;
+    }
+}
 
-    .secao-nunc .p-secao {
+@media screen and (max-width: 1005px) {
+    .p-secao {
+        max-width: 965px;
         padding: 0 2rem;
-        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho .logo-menu .lista-menu .item-menu a {
+        color: #9ab5d6;
+        display: block;
+        font-size: 1.2em;
+        width: 100%;
+        padding: 0.5rem 0;
     }
 }

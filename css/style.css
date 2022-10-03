@@ -83,18 +83,11 @@ body {
 .cabecalho .logo-menu .lista-menu {
     display: flex;
     list-style: none;
+    gap: 1rem;
 }
 
 .cabecalho .logo-menu .lista-menu .item-menu {
     position: relative;
-}
-
-.cabecalho .logo-menu .lista-menu .item-menu:nth-child(1) {
-    margin-right: 1rem;
-}
-
-.cabecalho .logo-menu .lista-menu .item-menu:nth-child(2) {
-    margin-right: 1rem;
 }
 
 .cabecalho .logo-menu .lista-menu .item-menu a {
@@ -102,10 +95,6 @@ body {
     text-decoration: none;
     color: var(--cor0);
     font-size: 0.9em;
-}
-
-.cabecalho .logo-menu .lista-menu .item-menu {
-    position: relative;
 }
 
 .cabecalho .logo-menu .lista-menu .item-menu .underline::before {
@@ -525,3 +514,5 @@ body {
         flex-direction: column;
     } 
 }
+
+/* RESPONSIVIDADE */
