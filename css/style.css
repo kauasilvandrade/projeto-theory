@@ -492,7 +492,8 @@ body {
     }
 
     .secao-ipsum .lista-pessoa .item-pessoa {
-        width: 100%;
+        width: 90%;
+        margin: auto;
     } 
 
     /* SEÇAO NUNC */
@@ -514,5 +515,3 @@ body {
         flex-direction: column;
     } 
 }
-
-/* RESPONSIVIDADE */
