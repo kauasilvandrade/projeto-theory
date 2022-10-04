@@ -1308,7 +1308,7 @@ body {
 .secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade {
     border: none;
     font-size: 1.1em;
-    gap: 3rem;
+    gap: 1rem;
     color: #9c9b9b;
     display: flex;
     margin-bottom: 2rem;
@@ -1318,11 +1318,16 @@ body {
     position: relative;
 }
 
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade label.caixa-prioridade {
+    padding: 1rem 0;
+    width: 100%;
+}
+
 .secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade input {
     display: none;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade label::before {
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .etiqueta-prioridade::before {
     border-radius: 50%;
     content: '';
     display: block;
@@ -1333,13 +1338,13 @@ body {
     border: 1px solid #dbdbdb;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade label {
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .etiqueta-prioridade {
     margin-left: 2.2rem;
     vertical-align: middle;
     cursor: pointer;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade input:checked ~ label::before {
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade input:checked ~ .etiqueta-prioridade::before {
     content: '\f00c';
     -webkit-font-smoothing: antialiased;
     font-family: FontAwesome;
@@ -1359,22 +1364,26 @@ body {
 .secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo {
     display: flex;
     border: none;
-    gap: 2rem;
     color: #9c9b9b;
     margin-bottom: 2rem;
+}
+
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo label.caixa-copia-mensagem, label.caixa-eu-n-robo {
+    padding: 1rem 0;
+    width: 100%;
 }
 
 .secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo input {
     display: none;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo label {
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .etiqueta-mensagem-robo {
     margin-left: 2.2rem;
     line-height: 1.6em;
     cursor: pointer;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo label::before {
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .etiqueta-mensagem-robo::before {
     content: '';
     display: block;
     height: 1.6rem;
@@ -1441,6 +1450,7 @@ body {
     background-color: #555;
     border: none;
     font-size: 1em;
+    cursor: pointer;
 }
 
 .secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-enviar input:hover {
@@ -1460,6 +1470,7 @@ body {
     color: #555;
     box-shadow: inset 0 0 0 2px #dbdbdb;
     border: none;
+    cursor: pointer;
 }
 
 .secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar .caixa-limpar input:hover {
@@ -1494,12 +1505,14 @@ body {
     color: white;
     background-color: #555;
     border: none;
+    cursor: pointer;
     width: 20%;
 }
 
 .secao-elementos .coluna-2 .form-consulta .caixa-consulta #enviar-consulta:hover {
     transition: .5s;
     background-color: #252525;
+    cursor: pointer;
 }
 
 /* ÁREA IMAGENS */
