@@ -1748,6 +1748,7 @@ body {
     .secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-nome {
         width: 100%;
     }
+
     .secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-email {
         width: 100%;
     }
@@ -1789,6 +1790,7 @@ body {
 
     .secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-small {
         flex-direction: column;
+        margin-right: 0rem;
     }
 
     /* CAIXA BOTÔES */
