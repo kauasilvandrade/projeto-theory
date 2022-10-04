@@ -1630,6 +1630,7 @@ body {
 
 /* DESKTOP */
 @media screen and (max-width: 1130px) {
+
     /* CONTAINER */
     .container {
         max-width: 965px;
@@ -1715,16 +1716,109 @@ body {
         flex-direction: column;
     }
 
+    /* TABELAS */
+    .secao-elementos .coluna-1 .caixa-tabela .tabelas .barra-tabela {
+        overflow-x: auto;
+        margin-bottom: 2rem;
+    }
+
+    .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-default {
+        width: 450px;
+    }
+
+    .secao-elementos .coluna-1 .caixa-tabela .tabelas .tabela-alternate {
+        width: 450px;
+    }
+
     /* LISTA DEFAULT */
     .secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-default {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
     }
 
     /* LISTA SMALL */
     .secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-small {
+        flex-direction: row;
+    }
+
+    /* ÁREA FORMULÁRIO */
+    .secao-elementos .coluna-2 .caixa-form form fieldset.nome-email, fieldset.grupo-prioridade, fieldset.mensagem-robo, .form-consulta .caixa-consulta {
         flex-direction: column;
-        align-items: flex-start;
+    }
+
+    .secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-nome {
+        width: 100%;
+    }
+    .secao-elementos .coluna-2 .caixa-form form fieldset.nome-email .caixa-email {
+        width: 100%;
+    }
+
+    .secao-elementos .coluna-2 .caixa-form form fieldset.enviar-limpar {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    form fieldset.enviar-limpar .caixa-enviar input, .caixa-limpar input {
+        width: 100%;
+    }
+
+    .secao-elementos .coluna-2 .form-consulta .caixa-consulta #consulta {
+        width: 100%;
+    }
+
+    .secao-elementos .coluna-2 .form-consulta .caixa-consulta #enviar-consulta {
+        width: 100%;
+    }
+
+    .rodape {
+        margin-top: 3rem;
     }
 
 }  
+
+/* CELULARES COM LARGURA MENOR QUE 420PX */
+@media screen and (max-width: 420px) and (min-width: 320px) {
+
+    /* LISTA ACTIONS */
+    .coluna-1 .caixa-actions .lista-default-g, .coluna-1 .caixa-actions .lista-small-p {
+        flex-direction: column;
+    }
+
+    .secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-default {
+        flex-direction: column;
+    }
+
+    .secao-elementos .coluna-1 .caixa-actions .listas-default-small .lista-small {
+        flex-direction: column;
+    }
+
+    /* CAIXA BOTÔES */
+    .caixa-botoes .lista-especial-default-alternate, .caixa-botoes .lista-big-default-small, .caixa-botoes .lista-fit, .caixa-botoes .lista-fit-small, .caixa-botoes .lista-icon, .caixa-botoes .lista-especial-default-alternate-cinza {
+        flex-direction: column;
+    }
+
+    .caixa-botoes .lista-especial-default-alternate li, .caixa-botoes .lista-big-default-small li, .caixa-botoes .lista-fit-small li, .caixa-botoes .lista-icon li, .caixa-botoes .lista-especial-default-alternate-cinza li {
+        width: 100%;
+        text-align: left;
+    }
+
+    .secao-elementos .coluna-2 .caixa-botoes .lista-fit .item-fit {
+        width: 100%;
+        text-align: left;
+    }
+
+    .secao-elementos .coluna-2 .caixa-botoes .lista-fit-small .item-fit-p {
+        width: 100%;
+        text-align: left;
+    }
+
+    /* IMG LEFT E RIGHT */
+    .secao-elementos .coluna-2 .caixa-imagens .img-left-right .img-p img {
+        width: 60%;
+    }
+
+    /* SEÇÃO PRE */
+    .secao-elementos .coluna-2 .caixa-pre-formatada .texto-code pre {
+        overflow-x: auto;
+    }
+
+}
