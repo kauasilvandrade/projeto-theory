@@ -63,7 +63,7 @@ body {
 .cabecalho .logo-menu .btn-check {}
 
 .cabecalho .logo-menu .btn-check .btn-mark {
-    font-size: 2.2em;
+    font-size: 2.4em;
     color: #bacee6;
     cursor: pointer;
     display: none;
@@ -71,7 +71,7 @@ body {
 
 .cabecalho .logo-menu .btn-check .btn-mark-off {
     display: none;
-    font-size: 2.2em;
+    font-size: 2.5em;
     color: #bacee6;
     z-index: 1;
     top: 1rem;
@@ -438,6 +438,7 @@ body {
     .cabecalho .logo-menu #btn-check[type="checkbox"]:checked ~ .btn-check .btn-mark-off {
         display: block;
         z-index: 2;
+        cursor: pointer;
     }
 
     .cabecalho .logo-menu .btn-check .btn-mark {
@@ -455,7 +456,7 @@ body {
         height: 100vh;
         flex-direction: column;
         transition: all .5s;
-        padding-top: 2.9rem;
+        padding-top: 3.5rem;
         z-index: 1;
     }
 
