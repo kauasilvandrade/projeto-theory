@@ -1289,7 +1289,7 @@ body {
     border: 2px solid #dbdbdb;
     outline: none;
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 1em;
     appearance: none;
     color: #9c9b9b;
@@ -1311,7 +1311,7 @@ body {
     gap: 1rem;
     color: #9c9b9b;
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade {
@@ -1323,11 +1323,11 @@ body {
     width: 100%;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade input {
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-prioridade input {
     display: none;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .etiqueta-prioridade::before {
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-prioridade .etiqueta-prioridade::before {
     border-radius: 50%;
     content: '';
     display: block;
@@ -1338,13 +1338,13 @@ body {
     border: 1px solid #dbdbdb;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .etiqueta-prioridade {
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-prioridade .etiqueta-prioridade {
     margin-left: 2.2rem;
     vertical-align: middle;
     cursor: pointer;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade input:checked ~ .etiqueta-prioridade::before {
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-prioridade input:checked ~ .etiqueta-prioridade::before {
     content: '\f00c';
     -webkit-font-smoothing: antialiased;
     font-family: FontAwesome;
@@ -1365,7 +1365,7 @@ body {
     display: flex;
     border: none;
     color: #9c9b9b;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-copia-mensagem, .caixa-eu-n-robo {
