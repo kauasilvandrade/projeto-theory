@@ -75,8 +75,8 @@ body {
     color: #bacee6;
     z-index: 1;
     top: 1rem;
-    right: 2rem;
-    position: absolute;
+    left: 15rem;
+    position: fixed;
 }
 
 /* MENU */
@@ -432,7 +432,7 @@ body {
 
     /* BOTÃO MOBILE */
     .cabecalho .logo-menu #btn-check[type="checkbox"]:checked ~ .lista-menu {
-        right: 0;
+        left: 0;
     }
 
     .cabecalho .logo-menu #btn-check[type="checkbox"]:checked ~ .btn-check .btn-mark-off {
@@ -449,12 +449,14 @@ body {
         background-color: var(--cor1);
         position: fixed;
         padding: 1.5rem;
-        right: -100%;
+        left: -100%;
         width: 18rem;
         top: 0;
         height: 100vh;
         flex-direction: column;
         transition: all .5s;
+        padding-top: 2.9rem;
+        z-index: 1;
     }
 
     .cabecalho .logo-menu .lista-menu .item-menu {
