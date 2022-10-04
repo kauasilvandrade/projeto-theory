@@ -1740,6 +1740,11 @@ body {
         flex-direction: row;
     }
 
+    /* COLUNA 2 */
+    .secao-elementos .coluna-2 {
+        max-width: 100%;
+    }
+
     /* ÁREA FORMULÁRIO */
     .secao-elementos .coluna-2 .caixa-form form fieldset.nome-email, fieldset.grupo-prioridade, fieldset.mensagem-robo, .form-consulta .caixa-consulta {
         flex-direction: column;
@@ -1811,6 +1816,11 @@ body {
     .secao-elementos .coluna-2 .caixa-botoes .lista-fit-small .item-fit-p {
         width: 100%;
         text-align: left;
+    }
+
+    /* IMAGE */
+    .secao-elementos .coluna-2 .caixa-imagens .img-fit .img-pequena {
+        gap: 0.5rem;
     }
 
     /* IMG LEFT E RIGHT */
