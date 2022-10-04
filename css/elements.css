@@ -1318,7 +1318,7 @@ body {
     position: relative;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade label.caixa-prioridade {
+.secao-elementos .coluna-2 .caixa-form form fieldset.grupo-prioridade .caixa-prioridade {
     padding: 1rem 0;
     width: 100%;
 }
@@ -1368,7 +1368,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo label.caixa-copia-mensagem, label.caixa-eu-n-robo {
+.secao-elementos .coluna-2 .caixa-form form fieldset.mensagem-robo .caixa-copia-mensagem, .caixa-eu-n-robo {
     padding: 1rem 0;
     width: 100%;
 }
