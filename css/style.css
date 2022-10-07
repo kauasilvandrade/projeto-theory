@@ -80,24 +80,24 @@ body {
 }
 
 /* MENU */
-.cabecalho .logo-menu .lista-menu {
+nav.logo-menu .lista-menu {
     display: flex;
     list-style: none;
     gap: 1rem;
 }
 
-.cabecalho .logo-menu .lista-menu .item-menu {
+nav.logo-menu .lista-menu .item-menu {
     position: relative;
 }
 
-.cabecalho .logo-menu .lista-menu .item-menu a {
+nav.logo-menu .lista-menu .item-menu a {
     position: relative;
     text-decoration: none;
     color: var(--cor0);
     font-size: 0.9em;
 }
 
-.cabecalho .logo-menu .lista-menu .item-menu .underline::before {
+nav.logo-menu .lista-menu .item-menu .underline::before {
     content: '';
     position: absolute;
     display: block;
@@ -107,7 +107,7 @@ body {
     top: 19px;
 }
 
-.cabecalho .logo-menu .lista-menu .item-menu .underline::after {
+nav.logo-menu .lista-menu .item-menu .underline::after {
     content: '';
     position: absolute;
     display: block;
@@ -115,19 +115,19 @@ body {
     height: 2px;
     left: 0;
     top: 19px;
-    transition: .3s;
-    transform-origin: left;
     background-color: var(--cor1);
+    transition: .3s;
+    transform-origin: center;
     transform: scaleX(0);
 }
 
-.cabecalho .logo-menu .lista-menu .item-menu a:hover ~ .underline::after {
+nav.logo-menu .lista-menu .item-menu a:hover ~ .underline::after {
     transform: scaleX(1);
 }
 
-.cabecalho .logo-menu .lista-menu .item-menu a:hover {
-    transition: .5s;
+nav.logo-menu .lista-menu .item-menu a:hover {
     color: #bacee6;
+    transition: .5s;
 }
 
 .cabecalho h1 {
@@ -143,7 +143,7 @@ body {
 }
 
 /* CONTEÚDO */
-.conteudo {}
+main.conteudo {}
 
 /* SEÇÃO DE ARTIGO  */
 .secao-artigo {
@@ -151,22 +151,22 @@ body {
     padding: 5.3rem 0;
 }
 
-.secao-artigo .posicionamento-artigos {
+.secao-artigo {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.secao-artigo .posicionamento-artigos .artigo {}
+.secao-artigo .artigo {}
 
-.secao-artigo .posicionamento-artigos #artigo-borda {
+.secao-artigo #artigo-borda {
     border-left: 1px solid var(--cor2);
     border-right: 1px solid var(--cor2);  
     padding: 0 4rem;
     margin: 0 4rem 0 3rem;
 }
 
-.secao-artigo .posicionamento-artigos .artigo h2 {
+.secao-artigo .artigo h2 {
     font-size: 1.2em;
     font-weight: 100;
     color: var(--cor1);
@@ -174,14 +174,14 @@ body {
     line-height: 1.4em;
 }
 
-.secao-artigo .posicionamento-artigos .artigo p {
+.secao-artigo .artigo p {
     color: var(--cor2);
     font-size: 0.9em;
     margin-bottom: 2rem;
     line-height: 1.6em;
 }
 
-.secao-artigo .posicionamento-artigos .artigo a {
+.secao-artigo .artigo a {
     display: block;
     background-color: var(--cor1);
     text-decoration: none;
@@ -192,7 +192,7 @@ body {
     padding: 0.8rem;
 }
 
-.secao-artigo .posicionamento-artigos .artigo a:hover {
+.secao-artigo .artigo a:hover {
     background-color: #52739b;
     transition: .5s;
 }
@@ -228,9 +228,9 @@ body {
     padding: 2.8rem 1.8rem;
 }
 .secao-ipsum .lista-pessoa .item-pessoa:hover {
-    transform: translate(-5px, -5px);
-    transition: transform .5s;
     box-shadow: 7px 8px 5px rgba(0, 0, 0, 0.096);
+    transition: transform .5s;
+    transform: translate(-5px, -5px);
 }
 
 .secao-ipsum .lista-pessoa .item-pessoa img {
@@ -256,7 +256,7 @@ body {
     padding: 5.8rem 0 2rem 0;
 }
 
-.secao-nunc .h1 {
+.secao-nunc > h2{
     text-align: center;
     color: var(--cor1);
     font-weight: 100;
@@ -264,7 +264,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.secao-nunc .p {
+.secao-nunc > p {
     text-align: center;
     color: var(--cor2);
     margin-bottom: 4rem;
@@ -383,13 +383,13 @@ body {
         padding: 4.5rem 2rem;
     }
 
-    .secao-artigo .posicionamento-artigos {
+    .secao-artigo {
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
 
-    .secao-artigo .posicionamento-artigos #artigo-borda {
+    .secao-artigo #artigo-borda {
         border-left: none;
         border-right: none;
         border-bottom: 1px solid var(--cor2);
@@ -446,7 +446,7 @@ body {
     } 
 
     /* MENU */
-    .cabecalho .logo-menu .lista-menu {
+    nav.logo-menu .lista-menu {
         background-color: var(--cor1);
         position: fixed;
         padding: 1.5rem;
@@ -460,11 +460,11 @@ body {
         z-index: 1;
     }
 
-    .cabecalho .logo-menu .lista-menu .item-menu {
+    nav.logo-menu .lista-menu .item-menu {
         text-align: left;
     }
 
-    .cabecalho .logo-menu .lista-menu .item-menu a {
+    nav.logo-menu .lista-menu .item-menu a {
         color: #9ab5d6;
         display: block;
         font-size: 1.2em;
@@ -472,11 +472,11 @@ body {
         padding: 0.5rem 0;
     }
 
-    .cabecalho .logo-menu .lista-menu .item-menu a:hover {
+    nav.logo-menu .lista-menu .item-menu a:hover {
         color: white;
     }
     
-    .cabecalho .logo-menu .lista-menu .item-menu #a-borda {
+    nav.logo-menu .lista-menu .item-menu #a-borda {
         border-bottom: 1px solid #9ab5d6;
         border-top: 1px solid #9ab5d6;
         padding: 0.8rem 0;
