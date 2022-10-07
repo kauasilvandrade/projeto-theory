@@ -77,7 +77,7 @@ body {
     left: 0;
     top: 19px;
     transition: .3s;
-    transform-origin: left;
+    transform-origin: center;
     background-color: #2b4b74;
     transform: scaleX(0);
 }
@@ -93,6 +93,22 @@ body {
 }
 
 /* SEÇÃO NUNC */
+.secao-nunc h1 {
+    text-align: center;
+    color: var(--cor1);
+    font-weight: 100;
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.secao-nunc .p-center {
+    text-align: center;
+    color: var(--cor2);
+    margin-bottom: 4rem;
+    font-size: 0.9em;
+}
+
 .secao-nunc .p-secao {
     color: var(--cor2);
     margin-bottom: 2rem;
