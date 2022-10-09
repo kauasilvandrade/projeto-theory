@@ -56,28 +56,11 @@ body {
 }
 
 /* BOTÃO MOBILE */
-.cabecalho .logo-menu #btn-check[type="checkbox"] {
+nav.logo-menu #btn-open {
     display: none;
 }
 
-.cabecalho .logo-menu .btn-check {}
-
-.cabecalho .logo-menu .btn-check .btn-mark {
-    font-size: 2.4em;
-    color: #bacee6;
-    cursor: pointer;
-    display: none;
-}
-
-.cabecalho .logo-menu .btn-check .btn-mark-off {
-    display: none;
-    font-size: 2.5em;
-    color: #bacee6;
-    z-index: 1;
-    top: 1rem;
-    left: 15rem;
-    position: fixed;
-}
+nav.logo-menu #btn-open .hamburguer {}
 
 /* MENU */
 nav.logo-menu .lista-menu {
@@ -366,7 +349,7 @@ main.conteudo {}
     /* CABEÇALHO */
     .cabecalho {
         background-attachment: none;
-        padding: 3rem 0 8rem 0;
+        padding: 3.5rem 0 8rem 0;
     }
 
     .cabecalho .logo-menu {
@@ -431,19 +414,56 @@ main.conteudo {}
     }
 
     /* BOTÃO MOBILE */
-    .cabecalho .logo-menu #btn-check[type="checkbox"]:checked ~ .lista-menu {
+    nav.logo-menu #btn-open {
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+    
+    nav.logo-menu #btn-open .hamburguer {
+        border-top: 4px solid #bacee6;
+        width: 2.2rem;
+        display: block;
+        transition: all .4s;
+    }
+
+    nav.logo-menu #btn-open .hamburguer::before {
+        content: '';
+        display: block;
+        border-top: 4px solid #bacee6;
+        width: 2.2rem;
+        background-color: currentColor;
+        margin: 7px 0;
+        transition: all .4s;
+    }
+    
+    nav.logo-menu #btn-open .hamburguer::after {
+        content: '';
+        display: block;
+        border-top: 4px solid #bacee6;
+        width: 2.2rem;
+        background-color: currentColor;
+        position: relative;
+        transition: all .4s;
+    }
+
+    /* CLASSE QUE VAI SER ATIVADA COM JAVASCRIPT 'ATIVADO' */
+    nav.logo-menu #btn-open.ativado .hamburguer {
+        border-top: transparent;
+    } 
+
+    nav.logo-menu #btn-open.ativado .hamburguer::before {
+        transform: rotate(135deg);
+    }
+    
+    nav.logo-menu #btn-open.ativado .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -11px;
+    }
+
+    nav.logo-menu .lista-menu.ativado {
         left: 0;
     }
-
-    .cabecalho .logo-menu #btn-check[type="checkbox"]:checked ~ .btn-check .btn-mark-off {
-        display: block;
-        z-index: 2;
-        cursor: pointer;
-    }
-
-    .cabecalho .logo-menu .btn-check .btn-mark {
-        display: block;
-    } 
 
     /* MENU */
     nav.logo-menu .lista-menu {
