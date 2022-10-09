@@ -476,7 +476,7 @@ main.conteudo {}
         height: 100vh;
         flex-direction: column;
         transition: all .5s;
-        padding-top: 3.5rem;
+        padding-top: 1rem;
         z-index: 1;
     }
 
