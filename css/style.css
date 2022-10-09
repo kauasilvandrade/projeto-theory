@@ -424,7 +424,6 @@ main.conteudo {}
         border-top: 4px solid #bacee6;
         width: 2.2rem;
         display: block;
-        transition: all .4s;
     }
 
     nav.logo-menu #btn-open .hamburguer::before {
@@ -434,7 +433,6 @@ main.conteudo {}
         width: 2.2rem;
         background-color: currentColor;
         margin: 7px 0;
-        transition: all .4s;
     }
     
     nav.logo-menu #btn-open .hamburguer::after {
@@ -444,7 +442,6 @@ main.conteudo {}
         width: 2.2rem;
         background-color: currentColor;
         position: relative;
-        transition: all .4s;
     }
 
     /* CLASSE QUE VAI SER ATIVADA COM JAVASCRIPT 'ATIVADO' */
@@ -454,10 +451,12 @@ main.conteudo {}
 
     nav.logo-menu #btn-open.ativado .hamburguer::before {
         transform: rotate(135deg);
+        transition: all 0.3s;
     }
     
     nav.logo-menu #btn-open.ativado .hamburguer::after {
         transform: rotate(-135deg);
+        transition: all 0.3s;
         top: -11px;
     }
 
