@@ -33,7 +33,7 @@ body {
 
 /* CABEÇALHO */
 .cabecalho {
-    background-image: url(../imagens/banner.jpg);
+    background-image: url(../media/imagens/banner.jpg);
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
