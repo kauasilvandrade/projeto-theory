@@ -3,7 +3,7 @@
 /* FONTES */
 @font-face {
     font-family: 'Raleway';
-    src: url('../fontes/raleway.ttf') format('truetype');
+    src: url('../media/fontes/raleway.ttf') format('truetype');
 }
 
 /* PALETA DE CORES */
@@ -424,7 +424,7 @@ main.conteudo {}
         border-top: 4px solid #bacee6;
         width: 2.2rem;
         display: block;
-        transition: all 0.3s;
+        transition: 0.6s;
     }
 
     nav.logo-menu #btn-open .hamburguer::before {
@@ -434,7 +434,7 @@ main.conteudo {}
         width: 2.2rem;
         background-color: currentColor;
         margin: 7px 0;
-        transition: all 0.3s;
+        transition: 0.6s;
     }
     
     nav.logo-menu #btn-open .hamburguer::after {
@@ -444,7 +444,7 @@ main.conteudo {}
         width: 2.2rem;
         background-color: currentColor;
         position: relative;
-        transition: all 0.3s;
+        transition: 0.6s;
     }
 
     /* CLASSE QUE VAI SER ATIVADA COM JAVASCRIPT 'ATIVADO' */
