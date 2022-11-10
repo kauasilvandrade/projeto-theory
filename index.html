@@ -28,14 +28,18 @@
                 <a href="#" class="logo">Theory</a>
 
                 <!-- BOTÃO HAMBURGUER -->
-                <button id="btn-open" class="btn-open">
+                <button id="btn-open" class="btn-open"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-haspopup="true"
+                aria-label="Botão abrir menu">
 
                     <span class="hamburguer"></span>
 
                 </button>
 
                 <!-- LISTA DE LINKS DO MENU -->
-                <ul class="lista-menu">
+                <ul class="lista-menu" id="menu" role="menu">
 
                     <li class="item-menu">
 
