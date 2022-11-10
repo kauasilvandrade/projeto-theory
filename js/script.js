@@ -19,19 +19,17 @@ function abrirMenu(event) {
 
     Menu.classList.toggle('ativado');
 
-    const ativado = btnOpen.classList.contains('ativado')
+    const ativado = btnOpen.classList.contains('ativado');
 
-    event.currentTarget.setAttribute('aria-expanded', ativado)
+    event.currentTarget.setAttribute('aria-expanded', ativado);
 
     if (ativado) {
-        event.currentTarget.setAttribute('aria-label', 'Botão fechar menu')
+        event.currentTarget.setAttribute('aria-label', 'Botão fechar menu');
     } else {
-        event.currentTarget.setAttribute('aria-label', 'Botão abrir menu')
+        event.currentTarget.setAttribute('aria-label', 'Botão abrir menu');
     }
 
 }
 
 btnOpen.addEventListener('click', abrirMenu);
 btnOpen.addEventListener('touchstart', abrirMenu);
-
-// LEMBRAR DE TESTAR O SET ATTRIBUTE
